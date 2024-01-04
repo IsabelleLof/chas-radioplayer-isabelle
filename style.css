@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-right: 1px solid black;
+  margin-right: 10px;
+}
+
+.channel {
+    display: flex;
+    border: 1px solid black;
+}
+
+.channel {
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+div + .channel + .contentBox {
+    padding: 20px;
+}
+
+/* .contentBox {
+    padding: 20px;
+    min-height: 200px;
+    background-color: #ffffff12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+} */
+
+/* h2 audio {
+  text-align: left;
+  direction: ltr;
+}
